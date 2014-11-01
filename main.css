@@ -33,14 +33,9 @@ html, body {
     color:#cc1e19;
 }
 
-#twitter { position: absolute; top: 25px; right: 62px; width: 37px; height: 30px; opacity: 1; }
-#facebook { position: absolute; top: 25px; right: 21px; width: 14px; height: 30px; opacity: 1; }
-#twitter img, #facebook img { width: 100%; height: 100%; }
-
-#spacer { width: 100%; height: 100px; }
-
-#twitter:hover { opacity: .6; }
-#facebook:hover { opacity: .6; }
+#twitter {
+  position: right;
+}
 
 h1 {
     font-family: 'Roboto Condensed';
