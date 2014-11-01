@@ -1,3 +1,30 @@
 html{
     background-color: black;
 }
+
+h1{
+    
+}
+
+#video{
+    margin-top:13%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+    padding:none;
+}
+
+#video p{
+    font-size:12pt;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#video a:link,a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+#video a:hover{
+    text-decoration: none;
+    color:#cc1e19;
+}
