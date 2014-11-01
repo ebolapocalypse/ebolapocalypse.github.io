@@ -18,21 +18,27 @@ function showPosition(position) {
     "<br>Longitude: " + lng; 
     if (lng<=67 && lng>=-80 && lat>=40 && lat<=50) {
         region = 'Northeast';
+        x.innerHTML = region;
     }
     else if ((lng <= -80) && (lng >= -105) && (lat >= 40) && (lat <= 50)) {
         region = "Midwest";
+        x.innerHTML = region;
     }
     else if ((lng <= -67) && (lng >= -105) && (lat >= 30) && (lat <= 40)) {
         region = "South";
+        x.innerHTML = region;
     }
     else if (lng <= -105 && lng >= -115 && lat >= 30 && lat <= 50) {
         region = "Mountain";
+        x.innerHTML = region;
     }   
     else if (lng <= -115 && lng >= -125 && lat >= 30 && lat <= 50) {
         region = "West";
+        x.innerHTML = region;
     }
     else {
         region = "Region not found.";
+        x.innerHTML = region;
     }
     x.innerHTML = region;
 }
