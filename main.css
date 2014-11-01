@@ -33,8 +33,10 @@ html, body {
     color:#cc1e19;
 }
 
-#twitter a{
+#twitter {
   text-align: right;
+  position: absolute;
+  right: 5px;
 }
 
 h1 {
