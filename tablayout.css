@@ -2,6 +2,7 @@ body {
   padding-top: 25px;
   color: red;
   background-color: black;
+
 }
 
 .footer {
@@ -20,6 +21,16 @@ body {
   padding: 14px 24px;
   font-size: 21px;
   color: #696969;
+}
+
+/* unvisited link */
+a:link {
+    color: #E31B40;
+}
+
+/* visited link */
+a:visited {
+    color: #8f061f;
 }
 
 /* Responsive: Portrait tablets and up */
