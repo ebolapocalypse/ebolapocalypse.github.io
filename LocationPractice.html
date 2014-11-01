@@ -64,9 +64,10 @@ function getRegion() {
     else if (lng <= -105 && lng > -115 && lat >= 30 && lat < 50) {
         region = "Mountain";
     }
-    else (lng <= -115 && lng > -125 && lat >= 30 && lat < 50) {
+    else if (lng <= -115 && lng > -125 && lat >= 30 && lat < 50) {
         region = "West";
     }
+    else { region = "Region not found."; }
     x.innerHTML = region;
 }
 
