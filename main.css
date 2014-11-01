@@ -100,3 +100,10 @@ li:hover {
 #navul {
   padding:0;
 }
+
+.avoidlearn {
+  width:60%;
+  margin:auto;
+  font-color:white;
+  font-family:'Roboto Condensed', sans-serif;
+}
