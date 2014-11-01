@@ -33,13 +33,13 @@ html, body {
     color:#cc1e19;
 }
 
-#twitterfb {
+#twitter {
   text-align: right;
   position: absolute;
   right: 2px;
 }
 
-#fb-share-button {
+fb-share-button {
   text-align: right;
   position: absolute;
   right: 10px;
