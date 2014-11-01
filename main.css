@@ -40,7 +40,6 @@ html, body {
 
 h1 {
     font-family: 'Roboto Condensed';
-    font-size: 20px;
 }
 a {
   text-decoration: none;
@@ -54,14 +53,15 @@ a:hover {
 }
 #nav-div {
   position: absolute;
-  width: 20%;
+  width: 40%;
   height: 235px;
   top: 30px;
   background-color: #000;
   left: 50%;
-  margin-left: -10%;
+  margin-left: -20%;
   z-index: 1;
     text-align: center;
+    font-size: 60px;
 }
 ul {
   display: block;
