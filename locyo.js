@@ -16,7 +16,9 @@ function showPosition(position) {
 
     x.innerHTML = "Latitude: " + lat + 
     "<br>Longitude: " + lng; 
-
+    if (lng < 0) {
+        x.innerHTML = "Test1";
+    }
     // if (lng <= -67 && lng >= -80 && lat >= 40 && lat =< 50) {
     //     region = 'Northeast';
     // }
