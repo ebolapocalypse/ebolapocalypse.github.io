@@ -19,29 +19,29 @@ function showPosition(position) {
     if ((lng <= -67) && (lng >= -80) && (lat >= 40) && (lat =< 50)) {
         region = 'Northeast';
     }
-    else{
-        if ((lng <= -80) && (lng >= -105) && (lat >= 40) && (lat =< 50)) {
-        region = "Midwest";
-        }
-        else {
-            if ((lng <= -67) && (lng >= -105) && (lat >= 30) && (lat =< 40)) {
-                region = "South";
-            }
-            else {
-                if (lng <= -105 && lng >= -115 && lat >= 30 && lat =< 50) {
-                    region = "Mountain";
-                }   
-                else {
-                    if (lng <= -115 && lng >= -125 && lat >= 30 && lat =< 50) {
-                        region = "West";
-                    }
-                    else { 
-                        region = "Region not found."; 
-                    }
-                }
-            }
-        }
-    }
+    // else{
+    //     if ((lng <= -80) && (lng >= -105) && (lat >= 40) && (lat =< 50)) {
+    //     region = "Midwest";
+    //     }
+    //     else {
+    //         if ((lng <= -67) && (lng >= -105) && (lat >= 30) && (lat =< 40)) {
+    //             region = "South";
+    //         }
+    //         else {
+    //             if (lng <= -105 && lng >= -115 && lat >= 30 && lat =< 50) {
+    //                 region = "Mountain";
+    //             }   
+    //             else {
+    //                 if (lng <= -115 && lng >= -125 && lat >= 30 && lat =< 50) {
+    //                     region = "West";
+    //                 }
+    //                 else { 
+    //                     region = "Region not found."; 
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 function showError(error) {
