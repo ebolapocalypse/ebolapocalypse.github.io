@@ -9,13 +9,20 @@
         <link rel="stylesheet" href="main.css">
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="responsive-nav.css">
+        <script src="responsive-nav.js"></script>
     </head>
     <body>
-        <div class="home">
-            <h1><a href="learn">LEARN</a></h1>
-            <h1><a href="avoid">AVOID</a></h1>
-            <h1><a href="survive">SURVIVE</a></h1>
-            <h1 id="rogue"><a href="rogue">GO ROGUE</a></h1>
-        </div>
+        <nav class="nav-collapse">
+        <ul>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Avoid</a></li>
+            <li><a href="#">Survive</a></li>
+            <li id="rogue"><a href="#">GO ROGUE</a></li>
+        </ul>
+        </nav>
+        <script>
+            var nav = responsiveNav(".nav-collapse");
+        </script>
     </body>
 </html>
