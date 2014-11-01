@@ -2,9 +2,8 @@
 <html>
 
 <head>
-	<title> If you think you've been infected... </title>
-
 	<style>
+
     header {
       text-align: center;
       background-color: black;
@@ -13,19 +12,14 @@
     body {
       text-align: center;
       background-color: black;
-      color: #FF0000;
+      color: white;
       font-family: helvetica;
     }
-    
-     @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-      }
-      body {
-        background: black;
-      }
-      }
-</style>
+
+    .content {
+    	text-align: center;
+    }
+	</style>
 
 <script>
 var x = document.getElementById("demo");
@@ -49,12 +43,18 @@ function showPosition(position) {
     document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
 }
 </script>
+
 </head>
+
+<h1> If you think you've been infected.... </h1>
+
 <body>
 
-<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=hospitals&key=AIzaSyDJ8YP0VrG8ZOSGelpryu8zZCdX6YFNZrE"></iframe>
+<div id = "map">
+	<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=hospitals&key=AIzaSyDJ8YP0VrG8ZOSGelpryu8zZCdX6YFNZrE"></iframe>
+</div>
 
-These are all of the nearest hospitals. Go. Now. Immediately! 
+<p> These are all of the nearest hospitals. Go. Now. Immediately! </p>
 
 </body>
 </html>
