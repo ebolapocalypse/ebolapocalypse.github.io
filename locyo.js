@@ -19,9 +19,9 @@ function showPosition(position) {
     if (lng < 0) {
         x.innerHTML = "Test1";
     }
-    // if (lng <= -67 && lng >= -80 && lat >= 40 && lat =< 50) {
-    //     region = 'Northeast';
-    // }
+    if ((lng <= -67) && (lng >= -80) && (lat >= 40) && (lat =< 50)) {
+        region = 'Northeast';
+    }
     // else if (lng <= -80 && lng >= -105 && lat >= 40 && lat =< 50) {
     //     region = "Midwest";
     // }
