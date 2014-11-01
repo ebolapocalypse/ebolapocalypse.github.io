@@ -33,14 +33,23 @@ html, body {
     color:#cc1e19;
 }
 
-#twitter { position: absolute; top: 25px; right: 62px; width: 37px; height: 30px; opacity: 1; }
-#facebook { position: absolute; top: 25px; right: 21px; width: 14px; height: 30px; opacity: 1; }
-#twitter img, #facebook img { width: 100%; height: 100%; }
+#twitter {
+  text-align: right;
+  position: absolute;
+  right: 2px;
+}
 
-#spacer { width: 100%; height: 100px; }
+#fb-root {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+}
 
-#twitter:hover { opacity: .6; }
-#facebook:hover { opacity: .6; }
+#fb-share-button {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+}
 
 h1 {
     font-family: 'Roboto Condensed';
@@ -97,4 +106,11 @@ li:hover {
 }
 #navul {
   padding:0;
+}
+
+.avoidlearn {
+  width:60%;
+  margin:auto;
+  color:white;
+  font-family:'Roboto Condensed', sans-serif;
 }
