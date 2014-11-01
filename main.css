@@ -54,7 +54,7 @@ a:hover {
 #nav-div {
   position: absolute;
   width: 40%;
-  height: 235px;
+  height: auto;
   top: 30px;
   background-color: #000;
   left: 50%;
@@ -65,14 +65,14 @@ a:hover {
 }
 ul {
   display: block;
+  height: auto;
   width: 100%;
   list-style: none;
 }
 li {
+    height: auto;
     width: 100%;
     display: block;
-    height: 45px;
-    margin: 10 0 0 0;
 }
 .content {
     position:absolute;
