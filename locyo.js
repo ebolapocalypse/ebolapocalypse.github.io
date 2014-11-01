@@ -34,6 +34,7 @@ function showPosition(position) {
     else {
         region = "Region not found.";
     }
+    x.innerHTML = region;
 }
 
 function showError(error) {
@@ -54,7 +55,7 @@ function showError(error) {
 }
 
 getLocation();
-x.innerHTML = region;
+
 document.getElementById('yo').innerHTML = '<h2>Want to be notified when there\'s Ebola news in the ' + region + '? *Yo* us at Ebola' + region + '!</h2><p style="font-size=10px;">(Click to close.)</p>';
 move('.popup')
     .set('height','auto')
