@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Location</title>
-</head>
-
-
 <body>
 
 <p id="demo">Click the button to get your position.</p>
@@ -48,8 +43,13 @@ function showError(error) {
             break;
     }
 }
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;  
+}
+
 </script>
 
 </body>
-
 </html>
