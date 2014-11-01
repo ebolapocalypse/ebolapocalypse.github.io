@@ -1,4 +1,0 @@
-Sane info:
-- WHO Fact Sheet: http://www.who.int/mediacentre/factsheets/fs103/en/
-- CDC Ebola Home Page: http://www.cdc.gov/vhf/ebola/
-- Infographic on transmission from CDC: http://one-org.s3.amazonaws.com/us/wp-content/uploads/2014/08/infographic-680x902.jpg
