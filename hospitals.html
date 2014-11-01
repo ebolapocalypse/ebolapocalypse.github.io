@@ -14,6 +14,14 @@ function showPosition(position) {
     x.innerHTML = "Latitude: " + position.coords.latitude + 
     "<br>Longitude: " + position.coords.longitude; 
 }
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+    var img_url = "http://maps.googleapis.com/maps/api/staticmap?center=
+    "+latlon+"&zoom=14&size=400x300&sensor=false";
+
+    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
 </script>
 </head>
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=hospitals&key=AIzaSyDJ8YP0VrG8ZOSGelpryu8zZCdX6YFNZrE"></iframe>
