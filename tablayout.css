@@ -1,6 +1,6 @@
 body {
   padding-top: 20px;
-  color: white;
+  color: red;
   background-color: black;
 }
 
@@ -14,10 +14,11 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  background-color: gray ;
+  color: white;
+  background-color: #511111 ;
 }
 .jumbotron .btn {
-  padding: 14px 24px;
+  padding: 14px 14px;
   font-size: 21px;
 }
 
