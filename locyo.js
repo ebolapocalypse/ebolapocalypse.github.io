@@ -16,18 +16,15 @@ function showPosition(position) {
 
     x.innerHTML = "Latitude: " + lat + 
     "<br>Longitude: " + lng; 
-    if (lng < 0) {
-        x.innerHTML = "Test1";
-    }
     if ((lng <= -67) && (lng >= -80) && (lat >= 40) && (lat =< 50)) {
         region = 'Northeast';
     }
-    // else if (lng <= -80 && lng >= -105 && lat >= 40 && lat =< 50) {
-    //     region = "Midwest";
-    // }
-    // else if (lng <= -67 && lng >= -105 && lat >= 30 && lat =< 40) {
-    //     region = "South";
-    // }
+    else if ((lng <= -80) && (lng >= -105) && (lat >= 40) && (lat =< 50)) {
+        region = "Midwest";
+    }
+    else if ((lng <= -67) && (lng >= -105) && (lat >= 30) && (lat =< 40)) {
+        region = "South";
+    }
     // else if (lng <= -105 && lng >= -115 && lat >= 30 && lat =< 50) {
     //     region = "Mountain";
     // }
