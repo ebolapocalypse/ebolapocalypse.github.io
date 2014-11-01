@@ -1,5 +1,6 @@
 body {
   padding-top: 25px;
+  padding-left: 60%;
   color: red;
   background-color: black;
 }
@@ -15,11 +16,13 @@ h3 {
 }
 
 .jumbotron {
+  padding-left: 20%;
   text-align: center;
   color: white;
   background-color: #511111 ;
 }
 .jumbotron .btn {
+  padding-left: 20%;
   padding: 14px 24px;
   font-size: 21px;
   color: #696969;
