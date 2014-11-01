@@ -2,10 +2,6 @@ html{
     background-color: black;
 }
 
-h1{
-    
-}
-
 #video{
     margin-top:13%;
     margin-left:10%;
@@ -27,4 +23,28 @@ h1{
 #video a:hover{
     text-decoration: none;
     color:#cc1e19;
+}
+
+h1{
+    text-align: center;
+    font-size:30;
+    font-family:'Roboto Condensed', sans-serif;
+    color:#e0211b;
+}
+
+.home{
+    margin-top:13%;
+}
+
+.home a{
+    text-decoration: none;
+    color:#e0211b;
+}
+
+.home a:hover{
+    color:#b0b0b0;
+}
+
+#rogue a:hover{
+    color:#00ff1e;
 }
