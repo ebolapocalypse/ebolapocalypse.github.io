@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude; 
+}
+</script>
+</head>
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=hospitals&key=AIzaSyDJ8YP0VrG8ZOSGelpryu8zZCdX6YFNZrE"></iframe>
 <h1>
 	These are all of the nearest hospitals. 
