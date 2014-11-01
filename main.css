@@ -126,8 +126,16 @@ li:hover {
     color: #00ff1e;
 }
 .avoidlearn {
-  width:60%;
+  width:100%;
   margin:auto;
   color:white;
   font-family:'Roboto Condensed', sans-serif;
+}
+
+.pagelists{
+  list-style-type: square;
+}
+
+.pagelists li{
+  font-size:15pt;
 }
