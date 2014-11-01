@@ -1,13 +1,13 @@
 body {
-  padding-top: 20px;
+  padding-top: 25px;
   color: red;
   background-color: black;
 }
 
 .footer {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
   border-top: none;
 }
 
@@ -17,7 +17,7 @@ body {
   background-color: #511111 ;
 }
 .jumbotron .btn {
-  padding: 14px 14px;
+  padding: 14px 24px;
   font-size: 21px;
   color: #696969;
 }

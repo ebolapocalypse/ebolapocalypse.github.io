@@ -2,9 +2,7 @@
   font-family: 'Roboto Condensed';
 }
 
-body,div,
-h1,h2,p,
-ol,ul {
+body {
   margin: 0;
   padding: 0;
   border: 0;
@@ -54,7 +52,6 @@ a:hover {
 #nav-div {
   position: absolute;
   width: 40%;
-  height: auto;
   top: 30px;
   background-color: #000;
   left: 50%;
@@ -70,7 +67,6 @@ ul {
   list-style: none;
 }
 li {
-    height: auto;
     width: 100%;
     display: block;
     background-color: #000;
