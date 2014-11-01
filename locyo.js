@@ -14,8 +14,8 @@ function showPosition(position) {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
 
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude; 
+    x.innerHTML = "Latitude: " + lat + 
+    "<br>Longitude: " + lng; 
 
     // if (lng <= -67 && lng >= -80 && lat >= 40 && lat =< 50) {
     //     region = 'Northeast';
