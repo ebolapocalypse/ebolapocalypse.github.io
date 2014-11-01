@@ -48,7 +48,7 @@ a {
 a:hover {
     color: #e0211b;
 }
-#rogue h1:hover{
+#rogue a:hover{
     color: #00ff1e;
 }
 #nav-div {
