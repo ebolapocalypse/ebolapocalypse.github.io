@@ -39,6 +39,18 @@ html, body {
   right: 2px;
 }
 
+#fb-root {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+}
+
+#fb-share-button {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+}
+
 h1 {
     font-family: 'Roboto Condensed';
 }
@@ -112,4 +124,10 @@ li:hover {
 }
 #yon {
     color: #00ff1e;
+}
+.avoidlearn {
+  width:60%;
+  margin:auto;
+  color:white;
+  font-family:'Roboto Condensed', sans-serif;
 }

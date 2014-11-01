@@ -17,7 +17,6 @@ function getLocation() {
     } else {
         x.innerHTML = "Geolocation is not supported by this browser.";
     }
-    getRegion();
 }
 
 function showPosition(position) {
@@ -26,9 +25,12 @@ function showPosition(position) {
     x.innerHTML = "Latitude: " + position.coords.latitude + 
     "<br>Longitude: " + position.coords.longitude; 
 
+    x.innerHTML = "Hi Testing.";
+
     var img_url = "http://maps.googleapis.com/maps/api/staticmap?center="
     +latlon+"&zoom=14&size=400x300&sensor=false";
     document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+
 }
 
 function showError(error) {
@@ -52,19 +54,19 @@ function getRegion() {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
     var region;
-    if (lng <= -67 && lng > -80 && lat >= 40 && lat < 50) {
+    if (lng <= -67 && lng >= -80 && lat >= 40 && lat =< 50) {
         region = "Northeast";
     }
-    else if (lng <= -80 && lng > -105 && lat >= 40 && lat < 50) {
+    else if (lng <= -80 && lng >= -105 && lat >= 40 && lat =< 50) {
         region = "Midwest";
     }
-    else if (lng <= -67 && lng > -105 && lat > 30 && lat < 40) {
+    else if (lng <= -67 && lng >= -105 && lat >= 30 && lat =< 40) {
         region = "South";
     }
-    else if (lng <= -105 && lng > -115 && lat >= 30 && lat < 50) {
+    else if (lng <= -105 && lng >= -115 && lat >= 30 && lat =< 50) {
         region = "Mountain";
     }
-    else if (lng <= -115 && lng > -125 && lat >= 30 && lat < 50) {
+    else if (lng <= -115 && lng >= -125 && lat >= 30 && lat =< 50) {
         region = "West";
     }
     else { region = "Region not found."; }
