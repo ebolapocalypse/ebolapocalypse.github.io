@@ -17,6 +17,7 @@ function getLocation() {
     } else {
         x.innerHTML = "Geolocation is not supported by this browser.";
     }
+    x.innerHTML = "Checking HTML...";
     getRegion();
 }
 
@@ -52,7 +53,6 @@ function getRegion() {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
     var region;
-    x.innerHTML = "Checking HTML...";
     if (lng <= -67 && lng > -80 && lat >= 40 && lat < 50) {
         region = "Northeast";
     }
