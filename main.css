@@ -3,9 +3,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  border: 0;
   background-color: #000;
 }
 
@@ -46,30 +43,34 @@ a {
 a:hover {
     color: #e0211b;
 }
-#rogue a:hover{
-    color: #00ff1e;
-}
+
 #nav-div {
   position: absolute;
   width: 40%;
-  top: 30px;
-  background-color: #000;
+  top: 0px;
   left: 50%;
   margin-left: -20%;
   z-index: 1;
     text-align: center;
     font-size: 60px;
+    line-height: 50%;
 }
 ul {
   display: block;
-  height: auto;
   width: 100%;
-  list-style: none;
+  height: auto;
 }
 li {
     width: 100%;
+    height: 20px;
     display: block;
-    background-color: #000;
+    background-color: #222;
+}
+li:hover {
+    background-color: #555;
+}
+#rogue h1:hover{
+    color: #00ff1e;
 }
 .content {
     position:absolute;
