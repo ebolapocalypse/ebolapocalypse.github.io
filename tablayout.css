@@ -2,9 +2,11 @@ body {
   padding-top: 25px;
   color: red;
   background-color: black;
-
 }
 
+h3 {
+  color:white;
+}
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
