@@ -14,11 +14,11 @@ function showPosition(position) {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
 
-    x.innerHTML = "Latitude: " + lat + 
-    "<br>Longitude: " + lng; 
-    if ((lng <= -67) && (lng >= -80) && (lat >= 40) && (lat =< 50)) {
-        region = 'Northeast';
-    }
+    // x.innerHTML = "Latitude: " + lat + 
+    // "<br>Longitude: " + lng; 
+    // if ((lng <= -67) && (lng >= -80) && (lat >= 40) && (lat =< 50)) {
+    //     region = 'Northeast';
+    // }
     // else{
     //     if ((lng <= -80) && (lng >= -105) && (lat >= 40) && (lat =< 50)) {
     //     region = "Midwest";
