@@ -61,9 +61,9 @@ function showError(error) {
 
 getLocation();
 
-// document.getElementById('yo').onclick = function(e) {
-//     move('.popup')
-//         .set('top','-250px')
-//         .duration('1s')
-//         .end();
-// };
+document.getElementById('yo').onclick = function(e) {
+    move('.popup')
+        .set('top','-250px')
+        .duration('1s')
+        .end();
+};
