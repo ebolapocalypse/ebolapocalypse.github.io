@@ -9,11 +9,8 @@ body {
 html, body {
   min-height: 100%;
 }
-div {
-  height: 100%;
-}
+
 #video{
-    margin-top:16%;
     margin-left:10%;
     margin-right:10%;
     text-align:center;
@@ -141,6 +138,12 @@ li:hover {
 
 #debug {
     color: black;
+}
+
+#title {
+  color: #eee;
+  width: 100%;
+  text-align: center;
 }
 
 .avoidlearn {
