@@ -1,5 +1,5 @@
 // (Location operations)
-var region = 'Northeast';
+var region = 'Not found.';
 var x = document.getElementById('debug');
 
 function getLocation() {
@@ -17,7 +17,7 @@ function showPosition(position) {
     x.innerHTML = "Latitude: " + lat + 
     "<br>Longitude: " + lng; 
     if (lng<=67 && lng>=-80 && lat>=40 && lat<=50) {
-        region = 'Northeasts';
+        region = 'Northeast';
         x.innerHTML = region;
     }
     else if ((lng <= -80) && (lng >= -105) && (lat >= 40) && (lat <= 50)) {
