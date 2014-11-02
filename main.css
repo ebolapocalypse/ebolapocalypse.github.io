@@ -39,7 +39,7 @@ html, body {
   right: 8px;
 }
 
-fb-share-button {
+#fb-share-button {
   text-align: right;
   position: absolute;
   right: 10px;
@@ -137,6 +137,11 @@ li:hover {
   font-size:15pt;
 }
 
+.footer {
+  color:gray;
+  padding-bottom: 2px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -144,5 +149,5 @@ li:hover {
   .marketing,
   .footer {
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 20;
   }
