@@ -35,14 +35,14 @@ html, body {
 
 #twitter {
   text-align: right;
-  position: absolute;
+  position: fixed;
   right: 8px;
   bottom: 30px;
 }
 
 .fb-share-button {
   text-align: right;
-  position: absolute;
+  position: fixed;
   right: 10px;
   bottom: 10px;
   width: 300%
