@@ -13,7 +13,15 @@
     </head>
 
     <body>
-
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=183672608379140&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));</script>
     <div class="nav" id="nav-div" onclick="toggle_visibility('content');">
         <ul id="navul">
             <a href="#"><li id="learn"><h1>Learn</h1></li></a>
@@ -31,7 +39,7 @@
         Disclaimer: Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.  <br/>Ebola's not going to destroy humanity. But if it did, we would have you covered. 
     </div>
 
-    <div class="media">
+    <div class="media" width="100px" height="50px">
         <a class="twitter-share-button" href="https://twitter.com/share">Tweet</a>
         <script type="text/javascript">
             window.twttr=(function(d,s,id){
@@ -41,6 +49,7 @@
                 fjs.parentNode.insertBefore(js,fjs);
                 return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
         </script>
+        <br/><div class="fb-share-button" data-href="http://www.ebolapocalypse.me" data-width="100px"></div>
     </div>
     
         <script type='text/javascript' src='move.js'></script>
