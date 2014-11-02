@@ -12,7 +12,7 @@ html, body {
 div {
   height: 100%;
 }
-#video{
+#video {
     margin-top:16%;
     margin-left:10%;
     margin-right:10%;
@@ -20,17 +20,17 @@ div {
     padding:none;
 }
 
-#video p{
+#video p {
     font-size:12pt;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#video a:link,a:visited{
+#video a:link,a:visited {
     text-decoration: none;
     color:white;
 }
 
-#video a:hover{
+#video a:hover {
     text-decoration: none;
     color:#cc1e19;
 }
@@ -38,10 +38,12 @@ div {
 h1 {
     font-family: 'Roboto Condensed';
 }
+
 a {
   text-decoration: none;
   color: #444;
 }
+
 a:hover {
     color: #e0211b;
 }
