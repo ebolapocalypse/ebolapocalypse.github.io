@@ -63,7 +63,7 @@ getLocation();
 
 document.getElementById('yo').onclick = function(e) {
     move('.popup')
-        .set('top','-250px')
+        .set('top','-1000px')
         .duration('1s')
         .end();
 };
