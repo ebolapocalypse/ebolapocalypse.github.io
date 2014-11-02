@@ -48,7 +48,7 @@ a:hover {
     color: #e0211b;
 }
 
-#twitter {
+.twitter {
   text-align: right;
   position: absolute;
   right: 10px;
