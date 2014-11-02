@@ -2,6 +2,14 @@
 var region = 'Not found.';
 var x = document.getElementById('debug');
 
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
 function showPosition(position) {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
@@ -27,6 +35,12 @@ function showPosition(position) {
         region = "Region not found.";
     }
     x.innerHTML = region;
+    document.getElementById('yo').innerHTML = '<h2>Want to be notified when there\'s Ebola news in the ' + region + '? *Yo* us at Ebola' + region + '!</h2><p style="font-size=10px;">(Click to close.)</p>';
+    move('.popup')
+        .set('height','auto')
+        .set('top','0px')
+        .duration('1s')
+        .end();
 }
 
 function showError(error) {
@@ -46,18 +60,8 @@ function showError(error) {
     }
 }
 
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition, showError);
-} else {
-    x.innerHTML = "Geolocation is not supported by this browser.";
-}
+getLocation();
 
-document.getElementById('yo').innerHTML = '<h2>Want to be notified when there\'s Ebola news in the ' + region + '? *Yo* us at Ebola' + region + '!</h2><p style="font-size=10px;">(Click to close.)</p>';
-move('.popup')
-    .set('height','auto')
-    .set('top','0px')
-    .duration('1s')
-    .end();
 document.getElementById('yo').onclick = function(e) {
     move('.popup')
         .set('top','-250px')
