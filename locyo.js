@@ -1,7 +1,7 @@
 // (Location operations)
 var region = 'Not found.';
 var x = document.getElementById('debug');
-
+x.innerHTML = "Here we are";
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition, showError);
