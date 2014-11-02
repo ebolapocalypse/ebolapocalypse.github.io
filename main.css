@@ -59,9 +59,9 @@ a:hover {
 #twitter {
   text-align: right;
   position: absolute;
-  right: 8px;
+  right: 10px;
   bottom: 30px;
-  width:100%;
+  width: 100%;
 }
 
 .fb-share-button {
