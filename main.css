@@ -46,16 +46,6 @@ a:hover {
     color: #e0211b;
 }
 
-.footer {
-  color:gray;
-  position:absolute;
-  bottom: 0px;
-  text-align: center;
-  font-family: 'Roboto Condensed';
-  width: 100%;
-  height: auto;
-}
-
 #twitter {
   text-align: right;
   position: absolute;
@@ -71,6 +61,17 @@ a:hover {
   bottom: 10px;
   width: 100%;
 }
+
+.footer {
+  color:gray;
+  position:absolute;
+  bottom: 0px;
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  width: 100%;
+  height: auto;
+}
+
 
 #nav-div {
   position: absolute;
