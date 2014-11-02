@@ -45,7 +45,7 @@ a:hover {
     color: #e0211b;
 }
 
-.twitter {
+.twitterfb {
   text-align: right;
   position: absolute;
   right: 10px;
@@ -53,13 +53,6 @@ a:hover {
   width: 100%;
 }
 
-.fb-share-button {
-  text-align: right;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  width: 100%;
-}
 
 .footer {
   color:gray;
