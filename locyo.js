@@ -2,14 +2,6 @@
 var region = 'Not found.';
 var x = document.getElementById('debug');
 
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition, showError);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-
 function showPosition(position) {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
@@ -54,7 +46,11 @@ function showError(error) {
     }
 }
 
-getLocation();
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+} else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+}
 
 document.getElementById('yo').innerHTML = '<h2>Want to be notified when there\'s Ebola news in the ' + region + '? *Yo* us at Ebola' + region + '!</h2><p style="font-size=10px;">(Click to close.)</p>';
 move('.popup')
