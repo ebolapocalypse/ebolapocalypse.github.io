@@ -32,46 +32,14 @@
             <p> Water purification: your best bets </p>
             <p> Boiling is a surefire purification method, but time and fuel-consuming.  Filters are quick and reusable, but break down over time.  Chemical treatment is quick but requires a chemical infrastructure that might take a while to get running in a post-Ebola world.  Read more: <a href= "http://www.wikihow.com/Purify-Water" target="_blank">Wiki it.</a></p>
                     
-          <button onclick="getLocation()">Find Food nearby.</button>
+          <p>Find Food Nearby:</p>
 
-          <div id="mapholder"></div>
-
-          <script>
-          var x = document.getElementById("demo");
-
-          function getLocation() {
-              if (navigator.geolocation) {
-                  navigator.geolocation.getCurrentPosition(showPosition, showError);
-              } else {
-                  x.innerHTML = "Geolocation is not supported by this browser.";
-              }
-          }
-
-          function showPosition(position) {
-              var latlon = position.coords.latitude + "," + position.coords.longitude;
-
-              var img_url = "http://maps.googleapis.com/maps/api/staticmap?center="
-              +latlon+"&zoom=14&size=400x300&sensor=false";
-              document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
-          }
-
-          function showError(error) {
-              switch(error.code) {
-                  case error.PERMISSION_DENIED:
-                      x.innerHTML = "User denied the request for Geolocation."
-                      break;
-                  case error.POSITION_UNAVAILABLE:
-                      x.innerHTML = "Location information is unavailable."
-                      break;
-                  case error.TIMEOUT:
-                      x.innerHTML = "The request to get user location timed out."
-                      break;
-                  case error.UNKNOWN_ERROR:
-                      x.innerHTML = "An unknown error occurred."
-                      break;
-              }
-          }
-          </script>
+          <iframe
+            width="600"
+            height="450"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAoQqVas57tNqWFRYK3pc47-RZrug6DcvU&q=Food+near+me">
+          </iframe>
           
           <p> Learn to hunt, fish, and grow plants, become self sustainable </p>
           <p><a href= "http://www.wikihow.com/Live-in-the-Wilderness" target="_blank">Wikipedia knows everything.</a></p>
