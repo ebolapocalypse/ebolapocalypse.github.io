@@ -64,7 +64,7 @@ a:hover {
 
 .footer {
   color:gray;
-  position:fixed;
+  position:absolute;
   bottom: 0px;
   text-align: center;
   font-family: 'Roboto Condensed';
