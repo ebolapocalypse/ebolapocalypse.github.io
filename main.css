@@ -56,7 +56,7 @@ a:hover {
     color: #e0211b;
 }
 
-#footer {
+.footer {
   color:gray;
   position:absolute;
   bottom: 0px;
