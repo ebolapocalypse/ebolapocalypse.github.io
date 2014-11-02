@@ -37,17 +37,17 @@ div {
 
 #twitter {
   text-align: right;
-  position: fixed;
+  position: absolute;
   right: 8px;
   bottom: 30px;
 }
 
 .fb-share-button {
   text-align: right;
-  position: fixed;
+  position: absolute;
   right: 10px;
   bottom: 10px;
-  width: 300%
+  width: 100%;
 }
 
 h1 {
