@@ -35,21 +35,6 @@ div {
     color:#cc1e19;
 }
 
-#twitter {
-  text-align: right;
-  position: fixed;
-  right: 8px;
-  bottom: 30px;
-}
-
-.fb-share-button {
-  text-align: right;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 300%
-}
-
 h1 {
     font-family: 'Roboto Condensed';
 }
@@ -69,6 +54,21 @@ a:hover {
   font-family: 'Roboto Condensed';
   width: 100%;
   height: auto;
+}
+
+#twitter {
+  text-align: right;
+  position: absolute;
+  right: 8px;
+  bottom: 30px;
+}
+
+.fb-share-button {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 100%;
 }
 
 #nav-div {
