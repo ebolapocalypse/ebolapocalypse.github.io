@@ -132,12 +132,15 @@ li:hover {
     text-align: center;
     color: #e0211b;
 }
+
 #yon {
     color: #00ff1e;
 }
+
 #debug {
     color: white;
 }
+
 .avoidlearn {
   width:50%;
   margin:auto;
@@ -145,11 +148,11 @@ li:hover {
   font-family:'Roboto Condensed', sans-serif;
 }
 
-.pagelists{
+.pagelists {
   list-style-type: square;
 }
 
-.pagelists li{
+.pagelists li {
   font-size:15pt;
 }
 
