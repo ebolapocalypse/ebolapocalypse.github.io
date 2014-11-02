@@ -57,6 +57,12 @@ a:hover {
     color: #e0211b;
 }
 
+#footer {
+  color:gray;
+  position:absolute;
+  bottom: 2px;
+}
+
 #nav-div {
   position: absolute;
   width: 40%;
@@ -136,11 +142,6 @@ li:hover {
 
 .pagelists li{
   font-size:15pt;
-}
-
-#footer {
-  color:gray;
-  padding-bottom: 2px;
 }
 
 /* Responsive: Portrait tablets and up */
