@@ -32,7 +32,7 @@ function showPosition(position) {
         region = "West";
     }
     else {
-        region = "Region not found.";
+        region = "USA";
     }
     x.innerHTML = region;
     document.getElementById('yo').innerHTML = '<h2>Want to be notified when there\'s Ebola news in the ' + region + '? *Yo* us at Ebola' + region + '!</h2><p style="font-size=10px;">(Click to close.)</p>';
