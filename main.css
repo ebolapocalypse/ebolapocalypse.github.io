@@ -61,6 +61,7 @@ a:hover {
   position: absolute;
   right: 8px;
   bottom: 30px;
+  width:100%;
 }
 
 .fb-share-button {
