@@ -51,6 +51,7 @@ a:hover {
   right: 10px;
   bottom: 30px;
   width: 100%;
+  z-index:1;
 }
 
 
@@ -64,6 +65,7 @@ a:hover {
   width: 100%;
   height: auto;
   margin-top:50px;
+  z-index:0;
 }
 
 
