@@ -37,12 +37,14 @@ html, body {
   text-align: right;
   position: absolute;
   right: 8px;
+  bottom: 30px;
 }
 
-#fb-share-button {
+.fb-share-button {
   text-align: right;
   position: absolute;
   right: 10px;
+  bottom: 10px;
 }
 
 h1 {
